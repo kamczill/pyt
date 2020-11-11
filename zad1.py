@@ -17,6 +17,10 @@ def sort(list_to_sort):
 
 list_to_sort = [[3, 2, 3], [2, 0, 2], [3, 0, 1]]
 
-
 sort(list_to_sort)
 print(list_to_sort)
+
+list_to_sort_2 = [[3, 2, 3], [2, 0, 2], [3, 0, 1], [3, 1, 0]]
+
+sort(list_to_sort_2)
+print(list_to_sort_2)
