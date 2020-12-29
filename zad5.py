@@ -1,17 +1,8 @@
 from random import randint
 
 imiona = ['Damian', 'Ola', 'Barbara', 'Robert', 'Zygmunt', 'Ewa']
-imiona2 = []
-
-for name in imiona:
-    imiona2.append(name[0])
-
+imiona2 = [name[0] for name in imiona]
 print(imiona2)
 
-randomNum = []
-num = 0
-for i in range(5):
-        randomNum2 = [randint(1,10) for el in range(4)]
-        randomNum.append(randomNum2)
-
-print(randomNum)
+numbers = [[randint(1,10) for y in range(4)] for x in range(5)]
+print(numbers)
