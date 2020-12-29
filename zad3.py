@@ -1,17 +1,13 @@
 password = "krakow"
-tries = 3
+tries = 5
 counter = 0
 passwordIn = ''
 
-while passwordIn != password:
+while counter != tries:
     print('\n\nIlosc prób: %d' % (tries-counter))
     passwordIn = input('Podaj haslo: ')
     counter += 1
     if passwordIn == password:
-        win = True
-        break
-    elif counter == tries:
-        win = False
         break
     else:
         print('\nHaslo nieprawidlowe')
